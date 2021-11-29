@@ -1,8 +1,9 @@
 package ressacasbar.drinks.adicionais.condimentos;
 
 import ressacasbar.Drink;
+import ressacasbar.DrinkDecorator;
 
-public class Sal extends Drink{
+public class Sal extends DrinkDecorator{
 
 	Drink drink;
 	

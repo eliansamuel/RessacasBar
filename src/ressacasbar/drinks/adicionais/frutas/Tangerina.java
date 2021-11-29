@@ -1,8 +1,9 @@
 package ressacasbar.drinks.adicionais.frutas;
 
 import ressacasbar.Drink;
+import ressacasbar.DrinkDecorator;
 
-public class Tangerina extends Drink{
+public class Tangerina extends DrinkDecorator{
 
 	Drink drink;
 	
